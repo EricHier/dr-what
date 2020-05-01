@@ -6,12 +6,9 @@
     <Output v-bind:output="output" />
 
     <div  class="container mx-auto my-10">
-      <button class="border rounded text-blue px-4 py-1 my-6 w-full" @click="click">Daten neu herunterladen, zuletzt geupdated: <br> {{new Date(lastUpdated)}}</button>
-
-      <div class="flex">
-        <input v-model="newJson" placeholder="Neue Wörter" class="flex-auto p-4 border border-gray-500 rounded text-gray-500 mr-6">
-        <button class="flex-grow-0 p-4 border border-gray-500 rounded text-gray-500" @click="upload">Speichern</button>
-      </div>
+      <button class="border rounded text-blue p-4" @click="click">Daten neu herunterladen, zuletzt geupdated: <br> {{new Date(lastUpdated)}}</button>
+      <input v-model="newJson" placeholder="Neue Wörter" class="flex-auto p-4 border rounded text-gray-500">
+      <button class="flex-grow-0 p-4 border rounded text-gray-500" @click="upload">Speichern</button>
     </div>
   </div>
 </template>
