@@ -1,11 +1,30 @@
-/*
-** TailwindCSS Configuration File
-**
-** Docs: https://tailwindcss.com/docs/configuration
-** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
-*/
 module.exports = {
-  theme: {},
+  theme: {
+    fontFamily: {
+      body: "Lato",
+      display: "Lato"
+    },
+    borderColor: {
+      default: "#2c5173ff",
+      focus: "#c33c55ff"
+    },
+    backgroundColor: {
+      footer: "#fafafa",
+      white: "#ffffff"
+    },
+    extend: {
+      textColor: {
+        accent: "#c33c55ff",
+        blue: "#2c5173ff"
+      },
+      boxShadow: {
+        divider: "0 0 40px 0 rgba(0, 0, 0, 0.25)"
+      },
+      height: {
+        "80": "20rem"
+      }
+    }
+  },
   variants: {},
   plugins: []
 }

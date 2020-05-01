@@ -1,2 +1,9 @@
-$background-dark: #234e52;
-$background-light: #b2f5ea;
+$accent: #c33c55ff;
+$blue: #2c5173ff;
+$blue-1: #3c738fff;
+$blue-2: #86dfecff;
+$blue-3: #a2f0e2ff;
+
+/* GRADIENT */
+$header-gradient-desktop: linear-gradient(90deg, $blue-1, $blue-2, $blue-3);
+$header-gradient-mobile: linear-gradient(90deg, $blue-1, $blue-2);

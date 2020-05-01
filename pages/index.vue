@@ -1,26 +1,29 @@
 <template>
-  <Layout>
-    <div class="container mx-auto p-10">
-      <h1 class="text-primary text-2xl text-center mb-10 block">MedicalLetterTranslator</h1>
+  <div class="bg-white">
 
-      <textarea v-model="input" class="w-full border border-gray-500 h-64 rounded mb-6 p-4" placeholder="Eingabe"/>
-      <textarea v-model="output" class="w-full border border-gray-500 h-64 rounded p-4" placeholder="Ausgabe" readonly/>
+    <letter-input v-on:newValue="newValue" />
 
-      <button class="border border-gray-500 rounded text-gray-500 px-4 py-1 my-6 w-full" @click="click">Daten neu herunterladen, zuletzt geupdated: <br> {{new Date(lastUpdated)}}</button>
+    <Output v-bind:output="output" />
+
+    <div  class="container mx-auto my-10">
+      <button class="border rounded text-blue px-4 py-1 my-6 w-full" @click="click">Daten neu herunterladen, zuletzt geupdated: <br> {{new Date(lastUpdated)}}</button>
 
       <div class="flex">
         <input v-model="newJson" placeholder="Neue Wörter" class="flex-auto p-4 border border-gray-500 rounded text-gray-500 mr-6">
         <button class="flex-grow-0 p-4 border border-gray-500 rounded text-gray-500" @click="upload">Speichern</button>
       </div>
     </div>
-  </Layout>
+  </div>
 </template>
 
 <script>
 import {translate, lastUpdated, updateTerms} from "../conversion/main";
 import {upload} from "../conversion/db";
+import LetterInput from "../components/converter/LetterInput";
+import Output from "../components/converter/Output";
 
 export default {
+  components: {Output, LetterInput},
   metaInfo: {
     title: 'Startseite'
   },
@@ -32,12 +35,10 @@ export default {
       newJson: ""
     }
   },
-  watch: {
-    input(newVal) {
-      this.output = translate(newVal);
-    }
-  },
   methods: {
+    newValue(newVal) {
+      this.output = translate(newVal);
+    },
     click() {
       updateTerms(true);
     },

@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@nuxtjs/pwa": "^3.0.0-0",
+    "animate.css": "^3.7.2",
     "firebase": "^7.14.2",
     "lowdb": "^1.0.0",
     "nuxt": "^2.0.0",

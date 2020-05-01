@@ -1,0 +1,20 @@
+@import "palette";
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@responsive {
+  .bg-header-desktop {
+    background-image: $header-gradient-desktop;
+  }
+
+  .bg-header-mobile {
+    background-image: $header-gradient-mobile;
+  }
+
+  .bg-accent {
+    background-color: $accent;
+  }
+
+  .bg-blue {
+    background-color: $blue;
+  }
+}
