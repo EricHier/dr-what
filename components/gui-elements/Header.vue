@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-header-mobile lg:bg-header-desktop min-h-64 flex items-center p-8 shadow-xl">
+    <div class="bg-header-mobile lg:bg-header-desktop min-h-80 flex items-center p-8 shadow-xl">
       <div class="container mx-auto">
         <h1 class="text-2xl block text-white tracking-wider font-extrabold">Medizinbrief Übersetzer</h1>
         <div class="h-px w-10 bg-white mb-4"/>

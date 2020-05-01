@@ -20,7 +20,7 @@ module.exports = {
       boxShadow: {
         divider: "0 0 40px 0 rgba(0, 0, 0, 0.25)"
       },
-      height: {
+      minHeight: {
         "80": "20rem"
       }
     }
