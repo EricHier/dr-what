@@ -27,7 +27,8 @@
       }
     },
     methods: {
-      keyup() {
+      keyup(e) {
+        console.log(e);
         this.$emit("show", this.input);
         _.debounce((input) => {
           this.$emit("newValue", input);
