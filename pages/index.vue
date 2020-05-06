@@ -17,7 +17,7 @@ import {translate, updateTerms} from "../conversion/main";
 import LetterInput from "../components/converter/LetterInput";
 import Output from "../components/converter/Output";
 import PopupContainer from "../components/gui-elements/PopupContainer";
-import TranslationsPreview from "../components/converter/TranslationsPreview";
+import TranslationsPreview from "../components/popups/TranslationsPreviewPopup";
 import InfoText from "../components/converter/InfoText";
 
 export default {

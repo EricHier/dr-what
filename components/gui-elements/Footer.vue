@@ -12,7 +12,7 @@
   </div>
 </template>
 <script>
-  import UpdateDB from "../converter/UpdateDB";
+  import UpdateDB from "../popups/UpdateDBPopup";
   export default {
     components: {UpdateDB},
     data() {
