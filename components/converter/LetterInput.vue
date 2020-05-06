@@ -28,11 +28,10 @@
     },
     methods: {
       keyup(e) {
-        console.log(e);
-        this.$emit("show", this.input);
+        this.$emit("show", e.target.value);
         _.debounce((input) => {
           this.$emit("newValue", input);
-        }, 2500)(this.input);
+        }, 2500)(e.target.value);
       }
     }
   }
