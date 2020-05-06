@@ -1,0 +1,1977 @@
+[
+  {
+    "term": "Sputum",
+    "replaceString": "abgehustetes Sekret",
+    "explanation": ""
+  },
+  {
+    "term": "Abszess",
+    "replaceString": "abgekapselte Eiteransammlung",
+    "explanation": ""
+  },
+  {
+    "term": "Auskultation",
+    "replaceString": "Abhören",
+    "explanation": ""
+  },
+  {
+    "term": "Drainage",
+    "replaceString": "Ableitungssystem",
+    "explanation": ""
+  },
+  {
+    "term": "Abrasion",
+    "replaceString": "Abschabung von Gewebe",
+    "explanation": ""
+  },
+  {
+    "term": "Abduktion",
+    "replaceString": "Abspreizen",
+    "explanation": ""
+  },
+  {
+    "term": "descendens",
+    "replaceString": "absteigend",
+    "explanation": ""
+  },
+  {
+    "term": "Achillodynie",
+    "replaceString": "Achillessehnenreizung",
+    "explanation": ""
+  },
+  {
+    "term": "Axilla",
+    "replaceString": "Achsel",
+    "explanation": ""
+  },
+  {
+    "term": "Choroidea",
+    "replaceString": "Aderhaut",
+    "explanation": ""
+  },
+  {
+    "term": "Anus",
+    "replaceString": "After",
+    "explanation": ""
+  },
+  {
+    "term": "ACS",
+    "replaceString": "Akutes Koronarsyndrom",
+    "explanation": "Herz-Kreislauf-Erkrankung mit Verschluss oder Verengung eines Herzkranzgefäßes"
+  },
+  {
+    "term": "Adynamie",
+    "replaceString": "allgemeine Erschöpfung",
+    "explanation": ""
+  },
+  {
+    "term": "Adnexe",
+    "replaceString": "Anhangsgebilde",
+    "explanation": ""
+  },
+  {
+    "term": "Baker-Zyste",
+    "replaceString": "Anschwellung in der Kniekehle",
+    "explanation": ""
+  },
+  {
+    "term": "Anorexie",
+    "replaceString": "Appetitlosigkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Arteria",
+    "replaceString": "Arterie",
+    "explanation": ""
+  },
+  {
+    "term": "Apnoe",
+    "replaceString": "Atemlähmung",
+    "explanation": ""
+  },
+  {
+    "term": "Dypnoe",
+    "replaceString": "Atemnot",
+    "explanation": ""
+  },
+  {
+    "term": "Anabolismus",
+    "replaceString": "Aufbau von Stoffen",
+    "explanation": ""
+  },
+  {
+    "term": "Bifurcatio",
+    "replaceString": "Aufgabelung",
+    "explanation": ""
+  },
+  {
+    "term": "ascendens",
+    "replaceString": "aufsteigend",
+    "explanation": ""
+  },
+  {
+    "term": "Granulation",
+    "replaceString": "Auftreten körnchenartiger Strukturen",
+    "explanation": ""
+  },
+  {
+    "term": "Antrum",
+    "replaceString": "Aufweitung",
+    "explanation": ""
+  },
+  {
+    "term": "EKG",
+    "replaceString": "Aufzeichnung der elektrischen Herzaktivität",
+    "explanation": ""
+  },
+  {
+    "term": "Amenorrhö",
+    "replaceString": "Ausbleiben der Regelblutung",
+    "explanation": ""
+  },
+  {
+    "term": "Sinus",
+    "replaceString": "Ausbuchtung",
+    "explanation": ""
+  },
+  {
+    "term": "Albuminurie",
+    "replaceString": "Ausscheidung von Albumin im Urin",
+    "explanation": ""
+  },
+  {
+    "term": "Hämaturie",
+    "replaceString": "Ausscheidung von Blut im Urin",
+    "explanation": ""
+  },
+  {
+    "term": "Pyurie",
+    "replaceString": "Ausscheidung von Eiter im Urin",
+    "explanation": ""
+  },
+  {
+    "term": "lateral",
+    "replaceString": "außen",
+    "explanation": ""
+  },
+  {
+    "term": "peripher",
+    "replaceString": "außen",
+    "explanation": ""
+  },
+  {
+    "term": "Vulva",
+    "replaceString": "äußeres weibliches Genital",
+    "explanation": ""
+  },
+  {
+    "term": "Bakteriurie",
+    "replaceString": "Bakterien im Urin",
+    "explanation": ""
+  },
+  {
+    "term": "Lig.",
+    "replaceString": "Band",
+    "explanation": ""
+  },
+  {
+    "term": "Ligament",
+    "replaceString": "Band",
+    "explanation": ""
+  },
+  {
+    "term": "Ligamentum",
+    "replaceString": "Band",
+    "explanation": ""
+  },
+  {
+    "term": "Bandscheibenprolaps",
+    "replaceString": "Bandscheibenvorrfall",
+    "explanation": ""
+  },
+  {
+    "term": "Bandscheibenprotrusion",
+    "replaceString": "Bandscheibenvorwölbung",
+    "explanation": ""
+  },
+  {
+    "term": "Abdomen",
+    "replaceString": "Bauch",
+    "explanation": ""
+  },
+  {
+    "term": "Pankreas",
+    "replaceString": "Bauchspeicheldrüse",
+    "explanation": ""
+  },
+  {
+    "term": "Laparoskopie",
+    "replaceString": "Bauchspiegelung",
+    "explanation": ""
+  },
+  {
+    "term": "Pelvis",
+    "replaceString": "Becken",
+    "explanation": ""
+  },
+  {
+    "term": "Anamnese",
+    "replaceString": "Befragung zur Vorgeschichte",
+    "explanation": ""
+  },
+  {
+    "term": "Somnolenz",
+    "replaceString": "Benommenheit/Schläfrigkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Tachypnoe",
+    "replaceString": "beschleunigte Atmung",
+    "explanation": ""
+  },
+  {
+    "term": "Flexion",
+    "replaceString": "Beugung",
+    "explanation": ""
+  },
+  {
+    "term": "Conjunctiva",
+    "replaceString": "Bindehaut",
+    "explanation": ""
+  },
+  {
+    "term": "Konjunktivitis",
+    "replaceString": "Bindehautentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Follikel",
+    "replaceString": "Bläschen",
+    "explanation": ""
+  },
+  {
+    "term": "Caecum",
+    "replaceString": "Blinddarm",
+    "explanation": ""
+  },
+  {
+    "term": "Appendektomie",
+    "replaceString": "Blinddarmentfernung",
+    "explanation": ""
+  },
+  {
+    "term": "Appendizitis",
+    "replaceString": "Blinddarmentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Antihypertensivum",
+    "replaceString": "blutdrucksenkendes Arzneimittel",
+    "explanation": ""
+  },
+  {
+    "term": "Thrombus",
+    "replaceString": "Blutgerinnsel",
+    "explanation": ""
+  },
+  {
+    "term": "Hypertonie",
+    "replaceString": "Bluthochdruck",
+    "explanation": ""
+  },
+  {
+    "term": "Thrombozyten",
+    "replaceString": "Blutplättchen",
+    "explanation": ""
+  },
+  {
+    "term": "Hämorrhagie",
+    "replaceString": "Blutung",
+    "explanation": ""
+  },
+  {
+    "term": "Sepsis",
+    "replaceString": "Blutvergiftung",
+    "explanation": ""
+  },
+  {
+    "term": "Arcus",
+    "replaceString": "Bogen",
+    "explanation": ""
+  },
+  {
+    "term": "Carcinoma",
+    "replaceString": "bösartiger Tumor",
+    "explanation": ""
+  },
+  {
+    "term": "Tibiakopffraktur",
+    "replaceString": "Bruch des Schienbeinkopfes",
+    "explanation": ""
+  },
+  {
+    "term": "Angina pectoris",
+    "replaceString": "Brustenge",
+    "explanation": ""
+  },
+  {
+    "term": "Pleura",
+    "replaceString": "Brustfell",
+    "explanation": ""
+  },
+  {
+    "term": "Thorax",
+    "replaceString": "Brustkorb",
+    "explanation": ""
+  },
+  {
+    "term": "Darmperistaltik",
+    "replaceString": "Darmbewegung",
+    "explanation": ""
+  },
+  {
+    "term": "Darmpolyp",
+    "replaceString": "Darmschleimhautwucherung",
+    "explanation": ""
+  },
+  {
+    "term": "coronal",
+    "replaceString": "das Herz betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "Rhizarthrose",
+    "replaceString": "Daumengelenksverschleiß",
+    "explanation": ""
+  },
+  {
+    "term": "thorakal",
+    "replaceString": "den Brustbereich betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "zervikal",
+    "replaceString": "den Hals betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "Osteo",
+    "replaceString": "den Knochen betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "metatarsal",
+    "replaceString": "den Mittelfuß betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "respiratorisch",
+    "replaceString": "die Atmung betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "carpal",
+    "replaceString": "die Hand betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "karpal",
+    "replaceString": "die Hand betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "lumbal",
+    "replaceString": "die Lendenregion betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "Pulmo",
+    "replaceString": "die Lunge betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "pulmonal",
+    "replaceString": "die Lunge betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "metacarpal",
+    "replaceString": "die Mittelhand betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "tonisch",
+    "replaceString": "die Muskelspannung betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "aurikulär",
+    "replaceString": "die Ohrmuschel betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "Paraplegie",
+    "replaceString": "doppelseitige Lähmung",
+    "explanation": ""
+  },
+  {
+    "term": "Dekubitus",
+    "replaceString": "Druckgeschwür",
+    "explanation": ""
+  },
+  {
+    "term": "Glandula",
+    "replaceString": "Drüse",
+    "explanation": ""
+  },
+  {
+    "term": "transthorakal",
+    "replaceString": "durch den Brustkorb",
+    "explanation": ""
+  },
+  {
+    "term": "Diarrhö",
+    "replaceString": "Durchfall",
+    "explanation": ""
+  },
+  {
+    "term": "Diarrhoe",
+    "replaceString": "Durchfall",
+    "explanation": ""
+  },
+  {
+    "term": "Glans",
+    "replaceString": "Eichel",
+    "explanation": ""
+  },
+  {
+    "term": "Ulna",
+    "replaceString": "Elle (Unterarm)",
+    "explanation": ""
+  },
+  {
+    "term": "Cauda",
+    "replaceString": "Endstück",
+    "explanation": ""
+  },
+  {
+    "term": "Ablatio",
+    "replaceString": "Entfernen von Körpergewebe",
+    "explanation": ""
+  },
+  {
+    "term": "Ablation",
+    "replaceString": "Entfernen von Körpergewebe",
+    "explanation": ""
+  },
+  {
+    "term": "Depilation",
+    "replaceString": "Enthaarung",
+    "explanation": ""
+  },
+  {
+    "term": "Bronchitis",
+    "replaceString": "Entzündung der Schleimhäute der Bronchien",
+    "explanation": ""
+  },
+  {
+    "term": "Steatorrhoe",
+    "replaceString": "Erhöhung des Fettgehaltes im Stuhl",
+    "explanation": ""
+  },
+  {
+    "term": "Commotio",
+    "replaceString": "Erschütterung",
+    "explanation": ""
+  },
+  {
+    "term": "Atlas",
+    "replaceString": "Erster Halswirbel",
+    "explanation": ""
+  },
+  {
+    "term": "Dysplasie",
+    "replaceString": "Fehlbildung",
+    "explanation": ""
+  },
+  {
+    "term": "Anosmie",
+    "replaceString": "Fehlen des Geruchssinnes",
+    "explanation": ""
+  },
+  {
+    "term": "Hallux Valgus",
+    "replaceString": "Fehlstellung des Großzehen nach außen",
+    "explanation": ""
+  },
+  {
+    "term": "Hallus rigidus",
+    "replaceString": "Fehlstellung des Großzehen nach innen",
+    "explanation": ""
+  },
+  {
+    "term": "adipös",
+    "replaceString": "fettleibig",
+    "explanation": ""
+  },
+  {
+    "term": "Adipositas",
+    "replaceString": "Fettleibigkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Digitus",
+    "replaceString": "Finger",
+    "explanation": ""
+  },
+  {
+    "term": "Ödem",
+    "replaceString": "Flüssigkeitsansammlung im Gewebe",
+    "explanation": ""
+  },
+  {
+    "term": "progressiv",
+    "replaceString": "fortschreitend",
+    "explanation": ""
+  },
+  {
+    "term": "Gynäkologie",
+    "replaceString": "Frauenheilkunde",
+    "explanation": ""
+  },
+  {
+    "term": "Insuffizienz",
+    "replaceString": "Funktionsschwäche",
+    "explanation": ""
+  },
+  {
+    "term": "Cholelithiasis",
+    "replaceString": "Gallensteinleiden",
+    "explanation": ""
+  },
+  {
+    "term": "GIT",
+    "replaceString": "gastrointestinal",
+    "explanation": ""
+  },
+  {
+    "term": "Tonsille",
+    "replaceString": "Gaumen-/Rachenmandel",
+    "explanation": ""
+  },
+  {
+    "term": "Uterus",
+    "replaceString": "Gebärmutter",
+    "explanation": ""
+  },
+  {
+    "term": "Amnesie",
+    "replaceString": "Gedächtnisstörung",
+    "explanation": ""
+  },
+  {
+    "term": "Plexus",
+    "replaceString": "Geflecht",
+    "explanation": ""
+  },
+  {
+    "term": "Enzephalitis",
+    "replaceString": "Gehirnentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Commotio cerebri",
+    "replaceString": "Gehirnerschütterung",
+    "explanation": ""
+  },
+  {
+    "term": "Cochlea",
+    "replaceString": "Gehörschnecke",
+    "explanation": ""
+  },
+  {
+    "term": "Ikterus",
+    "replaceString": "Gelbsucht",
+    "explanation": ""
+  },
+  {
+    "term": "Articulatio",
+    "replaceString": "Gelenk",
+    "explanation": ""
+  },
+  {
+    "term": "Arthritis",
+    "replaceString": "Gelenkentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Kondylus",
+    "replaceString": "Gelenkfortsatz",
+    "explanation": ""
+  },
+  {
+    "term": "Arthropathie",
+    "replaceString": "Gelenkleiden",
+    "explanation": ""
+  },
+  {
+    "term": "Arthrose",
+    "replaceString": "Gelenkverschleiß",
+    "explanation": ""
+  },
+  {
+    "term": "Ankylose",
+    "replaceString": "Gelenkversteifung",
+    "explanation": ""
+  },
+  {
+    "term": "Adenom",
+    "replaceString": "Geschwulst eines Drüsengewebes",
+    "explanation": ""
+  },
+  {
+    "term": "Biopsie",
+    "replaceString": "Gewebeentnahme",
+    "explanation": ""
+  },
+  {
+    "term": "Atrophie",
+    "replaceString": "Gewebeschwund",
+    "explanation": ""
+  },
+  {
+    "term": "Cerebrum",
+    "replaceString": "Großhirn",
+    "explanation": ""
+  },
+  {
+    "term": "Hemiplegie",
+    "replaceString": "halbseitige Lähmung",
+    "explanation": ""
+  },
+  {
+    "term": "Cervix",
+    "replaceString": "Hals",
+    "explanation": ""
+  },
+  {
+    "term": "Collum",
+    "replaceString": "Hals",
+    "explanation": ""
+  },
+  {
+    "term": "Arteria carotis",
+    "replaceString": "Halsschlagader",
+    "explanation": ""
+  },
+  {
+    "term": "Ureter",
+    "replaceString": "Harnleiter",
+    "explanation": ""
+  },
+  {
+    "term": "Urethra",
+    "replaceString": "Harnröhre",
+    "explanation": ""
+  },
+  {
+    "term": "Dura mater",
+    "replaceString": "harte Hirnhaut",
+    "explanation": ""
+  },
+  {
+    "term": "Aorta",
+    "replaceString": "Hauptschlagader",
+    "explanation": ""
+  },
+  {
+    "term": "Derma",
+    "replaceString": "Haut",
+    "explanation": ""
+  },
+  {
+    "term": "Exanthem",
+    "replaceString": "Hautausschlag",
+    "explanation": ""
+  },
+  {
+    "term": "Dermatom",
+    "replaceString": "Hautbereich einer Nervenwurzel",
+    "explanation": ""
+  },
+  {
+    "term": "Dermatitis",
+    "replaceString": "Hautentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Lumbago",
+    "replaceString": "heftig stechende Rückenschmerzen",
+    "explanation": ""
+  },
+  {
+    "term": "Lumbalgie",
+    "replaceString": "heftig stechende Rückenschmerzen",
+    "explanation": ""
+  },
+  {
+    "term": "Ptosis",
+    "replaceString": "Herabhängen eines oder beider Augenlider",
+    "explanation": ""
+  },
+  {
+    "term": "Adduktion",
+    "replaceString": "Heranziehen (zur Körpermitte)",
+    "explanation": ""
+  },
+  {
+    "term": "Exophthalamus",
+    "replaceString": "Hervortretende Augen",
+    "explanation": ""
+  },
+  {
+    "term": "Cor",
+    "replaceString": "Herz",
+    "explanation": ""
+  },
+  {
+    "term": "Myokard",
+    "replaceString": "Herzmuskel",
+    "explanation": ""
+  },
+  {
+    "term": "Auricula atrii",
+    "replaceString": "Herzohr (Ausstülpungen der Herzvorhöfe)",
+    "explanation": ""
+  },
+  {
+    "term": "Tachykardie",
+    "replaceString": "Herzrasen",
+    "explanation": ""
+  },
+  {
+    "term": "Choane",
+    "replaceString": "hintere Nasenöffnung",
+    "explanation": ""
+  },
+  {
+    "term": "Cavitas",
+    "replaceString": "Höhle",
+    "explanation": ""
+  },
+  {
+    "term": "Cornu",
+    "replaceString": "hornartige Struktur",
+    "explanation": ""
+  },
+  {
+    "term": "Cornea",
+    "replaceString": "Hornhaut",
+    "explanation": ""
+  },
+  {
+    "term": "Hüftdysplasie",
+    "replaceString": "Hüftgeleksfehlstellung",
+    "explanation": ""
+  },
+  {
+    "term": "Acetabulum",
+    "replaceString": "Hüftgelenkpfanne",
+    "explanation": ""
+  },
+  {
+    "term": "Coxitis fugax",
+    "replaceString": "Hüftschnupfen (Entzündung des Hüftgelenks)",
+    "explanation": ""
+  },
+  {
+    "term": "nosokomial",
+    "replaceString": "im Krankenhaus erworben",
+    "explanation": ""
+  },
+  {
+    "term": "Chymus",
+    "replaceString": "im Magen zersetzter Speisebrei",
+    "explanation": ""
+  },
+  {
+    "term": "Stent",
+    "replaceString": "Implantat in Röhrchenform",
+    "explanation": ""
+  },
+  {
+    "term": "invasiv",
+    "replaceString": "in den Körper eindringend",
+    "explanation": ""
+  },
+  {
+    "term": "i.m.",
+    "replaceString": "in den Muskel",
+    "explanation": ""
+  },
+  {
+    "term": "interstitiell",
+    "replaceString": "in den Zwischenräumen liegend",
+    "explanation": ""
+  },
+  {
+    "term": "abdominell",
+    "replaceString": "in der Bauchregion",
+    "explanation": ""
+  },
+  {
+    "term": "i.v.",
+    "replaceString": "in die Vene",
+    "explanation": ""
+  },
+  {
+    "term": "okzipital",
+    "replaceString": "in Richtung Hinterkopf",
+    "explanation": ""
+  },
+  {
+    "term": "posttraumatisch",
+    "replaceString": "infolge einer Verletzung/Erfahrung",
+    "explanation": ""
+  },
+  {
+    "term": "medial",
+    "replaceString": "innen",
+    "explanation": ""
+  },
+  {
+    "term": "Amnion",
+    "replaceString": "innerste Embryonalhülle",
+    "explanation": ""
+  },
+  {
+    "term": "Debilität",
+    "replaceString": "Intelligenzminderung",
+    "explanation": ""
+  },
+  {
+    "term": "Quarantäne",
+    "replaceString": "Isolierung",
+    "explanation": ""
+  },
+  {
+    "term": "Pädiatrie",
+    "replaceString": "Kinderheilkunde",
+    "explanation": ""
+  },
+  {
+    "term": "Valvula",
+    "replaceString": "kleine Klappe",
+    "explanation": ""
+  },
+  {
+    "term": "Cerebellum",
+    "replaceString": "Kleinhirn",
+    "explanation": ""
+  },
+  {
+    "term": "Gonarthrose",
+    "replaceString": "Kniegelenksverschleiß",
+    "explanation": ""
+  },
+  {
+    "term": "Patella",
+    "replaceString": "Kniescheibe",
+    "explanation": ""
+  },
+  {
+    "term": "Gonalgie",
+    "replaceString": "Knieschmerzen",
+    "explanation": ""
+  },
+  {
+    "term": "Knie-TEP",
+    "replaceString": "Knietotalendoprothese",
+    "explanation": ""
+  },
+  {
+    "term": "Kniegelenkdistorsion",
+    "replaceString": "Knieverstauchung",
+    "explanation": ""
+  },
+  {
+    "term": "Fraktur",
+    "replaceString": "Knochenbruch",
+    "explanation": ""
+  },
+  {
+    "term": "Osteitis",
+    "replaceString": "Knochenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Ostitis",
+    "replaceString": "Knochenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Osteomyelitis",
+    "replaceString": "Knochenmarkentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Cartilago",
+    "replaceString": "Knorpel",
+    "explanation": ""
+  },
+  {
+    "term": "Chondraldefekt",
+    "replaceString": "Knorpeldefekt",
+    "explanation": ""
+  },
+  {
+    "term": "Chondromalazie",
+    "replaceString": "Knorpelerweichung",
+    "explanation": ""
+  },
+  {
+    "term": "Unhappy Triad",
+    "replaceString": "Kombination aus vorderem Kreuzbandriss, Innenmeniskusriss und Seitenbandriss",
+    "explanation": ""
+  },
+  {
+    "term": "Pandemie",
+    "replaceString": "Kontinentübergreifende Krankheit",
+    "explanation": ""
+  },
+  {
+    "term": "Caput",
+    "replaceString": "Kopf",
+    "explanation": ""
+  },
+  {
+    "term": "Corpus",
+    "replaceString": "Körper",
+    "explanation": ""
+  },
+  {
+    "term": "Spasmus",
+    "replaceString": "Kramof",
+    "explanation": ""
+  },
+  {
+    "term": "KTW",
+    "replaceString": "Krankentransportwagen",
+    "explanation": ""
+  },
+  {
+    "term": "Thrombozytose",
+    "replaceString": "krankhaft hohe Anzahl Blutplättchen",
+    "explanation": ""
+  },
+  {
+    "term": "Atherosklerose",
+    "replaceString": "krankhafte Einlagerung von Fetten in den Aterienwänden",
+    "explanation": ""
+  },
+  {
+    "term": "Aneurysma",
+    "replaceString": "krankhafte Erweiterung",
+    "explanation": ""
+  },
+  {
+    "term": "Chondropathie",
+    "replaceString": "krankhafte Veränderung des Gelenkknorpels",
+    "explanation": ""
+  },
+  {
+    "term": "Leukozytose",
+    "replaceString": "krankhafte Vermehrung der weißen Blutkörperchen",
+    "explanation": ""
+  },
+  {
+    "term": "Leukopenie",
+    "replaceString": "krankhafte Verminderung der weißen Blutkörperchen",
+    "explanation": ""
+  },
+  {
+    "term": "Fistel",
+    "replaceString": "krankhafter Gang zwischen Hohlorganen",
+    "explanation": ""
+  },
+  {
+    "term": "Decussatio",
+    "replaceString": "Kreuzung",
+    "explanation": ""
+  },
+  {
+    "term": "Kyphose",
+    "replaceString": "Krümmung der Wirbelsäule nach hinten",
+    "explanation": ""
+  },
+  {
+    "term": "Lordose",
+    "replaceString": "Krümmung der Wirbelsäule nach vorne",
+    "explanation": ""
+  },
+  {
+    "term": "Kyphoskoliose",
+    "replaceString": "Krümmung der Wirbelsäüle zur Seite und nach hinten",
+    "explanation": ""
+  },
+  {
+    "term": "Stoma",
+    "replaceString": "künstlicher Ausgang",
+    "explanation": ""
+  },
+  {
+    "term": "Dermis",
+    "replaceString": "Lederhaut",
+    "explanation": ""
+  },
+  {
+    "term": "Hemiparese",
+    "replaceString": "leichte halbseitige Lähmung",
+    "explanation": ""
+  },
+  {
+    "term": "LWS",
+    "replaceString": "Lendenwirbelsäule",
+    "explanation": ""
+  },
+  {
+    "term": "Photophobie",
+    "replaceString": "Lichtempfindlichkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Trachea",
+    "replaceString": "Luftröhre",
+    "explanation": ""
+  },
+  {
+    "term": "Trachea",
+    "replaceString": "Luftröhre",
+    "explanation": ""
+  },
+  {
+    "term": "Tracheotomie",
+    "replaceString": "Luftröhrenschnitt",
+    "explanation": ""
+  },
+  {
+    "term": "Alveoli",
+    "replaceString": "Lungenbläschen",
+    "explanation": ""
+  },
+  {
+    "term": "Pneumonie",
+    "replaceString": "Lungenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Lufu",
+    "replaceString": "Lungenfunktion",
+    "explanation": ""
+  },
+  {
+    "term": "Gaster",
+    "replaceString": "Magen",
+    "explanation": ""
+  },
+  {
+    "term": "Gastritis",
+    "replaceString": "Magenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Gastroskopie",
+    "replaceString": "Magenspiegelung",
+    "explanation": ""
+  },
+  {
+    "term": "Angina tonsillaris",
+    "replaceString": "Mandelentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Tonsillitis",
+    "replaceString": "Mandelentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Deprivation",
+    "replaceString": "Mangel/Entzug",
+    "explanation": ""
+  },
+  {
+    "term": "Perfusor",
+    "replaceString": "Medikamentenpumpe",
+    "explanation": ""
+  },
+  {
+    "term": "Splenomegalie",
+    "replaceString": "Milzvergrößerung",
+    "explanation": ""
+  },
+  {
+    "term": "Metatarsus",
+    "replaceString": "Mittelfuß",
+    "explanation": ""
+  },
+  {
+    "term": "Metatarsalgie",
+    "replaceString": "Mittelfußschmerzen",
+    "explanation": ""
+  },
+  {
+    "term": "Otitis media",
+    "replaceString": "Mittelohrentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "M.",
+    "replaceString": "Muskel",
+    "explanation": ""
+  },
+  {
+    "term": "Myositis",
+    "replaceString": "Muskelentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Faszie",
+    "replaceString": "Muskelhaut",
+    "explanation": ""
+  },
+  {
+    "term": "Muskelatrophie",
+    "replaceString": "Muskelschwund",
+    "explanation": ""
+  },
+  {
+    "term": "Tonus",
+    "replaceString": "Muskelspannung",
+    "explanation": ""
+  },
+  {
+    "term": "Tremor",
+    "replaceString": "Muskelzittern",
+    "explanation": ""
+  },
+  {
+    "term": "Coxa valga",
+    "replaceString": "nach außen gekrümmte Hüfte",
+    "explanation": ""
+  },
+  {
+    "term": "postoperativ",
+    "replaceString": "nach der Operation",
+    "explanation": ""
+  },
+  {
+    "term": "Coxa vara",
+    "replaceString": "nach innen gekrümmte Hüfte",
+    "explanation": ""
+  },
+  {
+    "term": "Schlafapnoe",
+    "replaceString": "nächtliche Atemaussetzer",
+    "explanation": ""
+  },
+  {
+    "term": "Epistaxis",
+    "replaceString": "Nasenbluten",
+    "explanation": ""
+  },
+  {
+    "term": "Sinusitis",
+    "replaceString": "Nasennebenhöhlenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Rhinoskopie",
+    "replaceString": "Nasenspiegelung",
+    "explanation": ""
+  },
+  {
+    "term": "Urtikaria",
+    "replaceString": "Nesselsucht",
+    "explanation": ""
+  },
+  {
+    "term": "Hypotonie",
+    "replaceString": "niedriger Blutdruck",
+    "explanation": ""
+  },
+  {
+    "term": "NEF",
+    "replaceString": "Notarzteinsatzfahrzeug",
+    "explanation": ""
+  },
+  {
+    "term": "NAW",
+    "replaceString": "Notarztwagen",
+    "explanation": ""
+  },
+  {
+    "term": "Genu varum",
+    "replaceString": "O-Beine",
+    "explanation": ""
+  },
+  {
+    "term": "cranial",
+    "replaceString": "oben",
+    "explanation": ""
+  },
+  {
+    "term": "Brachium",
+    "replaceString": "Oberarm",
+    "explanation": ""
+  },
+  {
+    "term": "Humerus",
+    "replaceString": "Oberarmknochen",
+    "explanation": ""
+  },
+  {
+    "term": "Epigastrium",
+    "replaceString": "Oberbauch",
+    "explanation": ""
+  },
+  {
+    "term": "Femur",
+    "replaceString": "Oberschenkelknochen",
+    "explanation": ""
+  },
+  {
+    "term": "Acromion",
+    "replaceString": "oberste Spitze des Schulterblatts",
+    "explanation": ""
+  },
+  {
+    "term": "Epithel",
+    "replaceString": "oberste Zellschicht in der Haut",
+    "explanation": ""
+  },
+  {
+    "term": "Epithelgewebe",
+    "replaceString": "oberste Zellschicht in der Haut",
+    "explanation": ""
+  },
+  {
+    "term": "Apertura",
+    "replaceString": "Öffnung",
+    "explanation": ""
+  },
+  {
+    "term": "idiopathisch",
+    "replaceString": "ohne erkennbare Ursache",
+    "explanation": ""
+  },
+  {
+    "term": "Synkope",
+    "replaceString": "Ohnmacht",
+    "explanation": ""
+  },
+  {
+    "term": "Auris",
+    "replaceString": "Ohr",
+    "explanation": ""
+  },
+  {
+    "term": "Otitis",
+    "replaceString": "Ohrentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Tinnitus",
+    "replaceString": "Ohrgeräusche",
+    "explanation": ""
+  },
+  {
+    "term": "Auricula auris",
+    "replaceString": "Ohrmuschel",
+    "explanation": ""
+  },
+  {
+    "term": "Stridor",
+    "replaceString": "pfeifendes/zischendes Atemgeräusch",
+    "explanation": ""
+  },
+  {
+    "term": "Agoraphobie",
+    "replaceString": "Platzangst",
+    "explanation": ""
+  },
+  {
+    "term": "Claustrophobia",
+    "replaceString": "Platzangst",
+    "explanation": ""
+  },
+  {
+    "term": "akut",
+    "replaceString": "plötzlich eingetreten",
+    "explanation": ""
+  },
+  {
+    "term": "Macula",
+    "replaceString": "Punkt",
+    "explanation": ""
+  },
+  {
+    "term": "dexter",
+    "replaceString": "rechts",
+    "explanation": ""
+  },
+  {
+    "term": "RTW",
+    "replaceString": "Rettungswagen",
+    "explanation": ""
+  },
+  {
+    "term": "Anulus",
+    "replaceString": "Ring",
+    "explanation": ""
+  },
+  {
+    "term": "Szintigraphie",
+    "replaceString": "",
+    "explanation": "Nuklearmedizinisches Verfahren zu Darstellung von Geweben. Es werden dabei schwach radioaktive Stoffe genutzt, die sich in Geweben unterschiedlich stark ansammeln, daraufhin wird die Strahlung gemessen und abgebildet."
+  },
+  {
+    "term": "Bronchus",
+    "replaceString": "röhrenartige Struktur der Atemwege",
+    "explanation": ""
+  },
+  {
+    "term": "Mammographie",
+    "replaceString": "Röntgenuntersuchung der Brust",
+    "explanation": ""
+  },
+  {
+    "term": "dorsal",
+    "replaceString": "rückseitig",
+    "explanation": ""
+  },
+  {
+    "term": "Cranium",
+    "replaceString": "Schädel",
+    "explanation": ""
+  },
+  {
+    "term": "Tibia",
+    "replaceString": "Schienbein",
+    "explanation": ""
+  },
+  {
+    "term": "Thyroidea",
+    "replaceString": "Schilddrüse",
+    "explanation": ""
+  },
+  {
+    "term": "Hyperthyreose",
+    "replaceString": "Schilddrüsenüberfunktion",
+    "explanation": ""
+  },
+  {
+    "term": "Hypothyreose",
+    "replaceString": "Schilddrüsenunterfunktion",
+    "explanation": ""
+  },
+  {
+    "term": "Apoplexie",
+    "replaceString": "Schlaganfall",
+    "explanation": ""
+  },
+  {
+    "term": "Bursa",
+    "replaceString": "Schleimbeutel",
+    "explanation": ""
+  },
+  {
+    "term": "Bursitis",
+    "replaceString": "Schleimbeutelentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Klavikulafraktur",
+    "replaceString": "Schlüsselbeinbruch",
+    "explanation": ""
+  },
+  {
+    "term": "Mastodynie",
+    "replaceString": "Schmerzen der Brust",
+    "explanation": ""
+  },
+  {
+    "term": "Rhinitis",
+    "replaceString": "Schnupfen",
+    "explanation": ""
+  },
+  {
+    "term": "Scapula",
+    "replaceString": "Schulterblatt",
+    "explanation": ""
+  },
+  {
+    "term": "Omarthrose",
+    "replaceString": "Schultergelenksverschleiß",
+    "explanation": ""
+  },
+  {
+    "term": "Omalgie",
+    "replaceString": "Schulterschmerzen",
+    "explanation": ""
+  },
+  {
+    "term": "Choleretikum",
+    "replaceString": "",
+    "explanation": "Arzneistoff, der die Leberzellen zu vermehrter Sekretion von Galle anregen."
+  },
+  {
+    "term": "Psoriasis",
+    "replaceString": "Schuppenflechte",
+    "explanation": ""
+  },
+  {
+    "term": "Tendinitis",
+    "replaceString": "Sehnenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Aponeurose",
+    "replaceString": "Sehnenplatte",
+    "explanation": ""
+  },
+  {
+    "term": "Kollateralband",
+    "replaceString": "Seitenband",
+    "explanation": ""
+  },
+  {
+    "term": "Kollateralbänder",
+    "replaceString": "Seitenbänder",
+    "explanation": ""
+  },
+  {
+    "term": "Skoliose",
+    "replaceString": "seitliche Wirbelsäulenkrümmung",
+    "explanation": ""
+  },
+  {
+    "term": "Radius",
+    "replaceString": "Speiche (Unterarm)",
+    "explanation": ""
+  },
+  {
+    "term": "Ösophagus",
+    "replaceString": "Speiseröhre",
+    "explanation": ""
+  },
+  {
+    "term": "Ösophagitis",
+    "replaceString": "Speiseröhrenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Sinuskopie",
+    "replaceString": "Spiegelung der Kieferhöhle",
+    "explanation": ""
+  },
+  {
+    "term": "Arachnoidea",
+    "replaceString": "Spinnwebenhaut (Teil der weichen Hirnhaut)",
+    "explanation": ""
+  },
+  {
+    "term": "Apex",
+    "replaceString": "Spitze",
+    "explanation": ""
+  },
+  {
+    "term": "Apex",
+    "replaceString": "Spitze",
+    "explanation": ""
+  },
+  {
+    "term": "Logopädie",
+    "replaceString": "Sprachheilkunde",
+    "explanation": ""
+  },
+  {
+    "term": "Sprunggelenksdistorsion",
+    "replaceString": "Sprunggelenksverstauchung",
+    "explanation": ""
+  },
+  {
+    "term": "bradytroph",
+    "replaceString": "stoffwechselträge",
+    "explanation": ""
+  },
+  {
+    "term": "Ataxie",
+    "replaceString": "Störung der Bewegungskoordination",
+    "explanation": ""
+  },
+  {
+    "term": "Aphonie",
+    "replaceString": "Störung der Tonbildung",
+    "explanation": ""
+  },
+  {
+    "term": "Radiologie",
+    "replaceString": "Strahlenmedizin",
+    "explanation": ""
+  },
+  {
+    "term": "Extension",
+    "replaceString": "Streckung",
+    "explanation": ""
+  },
+  {
+    "term": "Defäkation",
+    "replaceString": "Stuhlentleerung",
+    "explanation": ""
+  },
+  {
+    "term": "Apathie",
+    "replaceString": "Teilnahmslosigkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Hyperhidrose",
+    "replaceString": "übermäßiges Schwitzen",
+    "explanation": ""
+  },
+  {
+    "term": "Sonographie",
+    "replaceString": "Ultraschalluntersuchung",
+    "explanation": ""
+  },
+  {
+    "term": "Arrhytmie",
+    "replaceString": "Unregelmäßigkeit",
+    "explanation": ""
+  },
+  {
+    "term": "subcutan",
+    "replaceString": "unter die/der Haut",
+    "explanation": ""
+  },
+  {
+    "term": "subkutan",
+    "replaceString": "unter die/der Haut",
+    "explanation": ""
+  },
+  {
+    "term": "Antebrachium",
+    "replaceString": "Unterarm",
+    "explanation": ""
+  },
+  {
+    "term": "Anisokorie",
+    "replaceString": "Unterschied der Pupillenweiten",
+    "explanation": ""
+  },
+  {
+    "term": "Inkontinenz",
+    "replaceString": "unwillkürlicher Harnverlust",
+    "explanation": ""
+  },
+  {
+    "term": "Ätiologie",
+    "replaceString": "Ursache",
+    "explanation": ""
+  },
+  {
+    "term": "Hirnsinus",
+    "replaceString": "venöse Gefäße des Gehirns",
+    "explanation": ""
+  },
+  {
+    "term": "Anastomose",
+    "replaceString": "Verbindung",
+    "explanation": ""
+  },
+  {
+    "term": "Aquaeductus cerebri",
+    "replaceString": "Verbindungskanal zwischen dem dritten und vierten Hirnhohlraum",
+    "explanation": ""
+  },
+  {
+    "term": "Stenose",
+    "replaceString": "Verengung",
+    "explanation": ""
+  },
+  {
+    "term": "Carotisstenose",
+    "replaceString": "Verengung der hirnversorgenden Gefäße",
+    "explanation": ""
+  },
+  {
+    "term": "Spinalkanalstenose",
+    "replaceString": "Verengung des Rückenmarkkanals",
+    "explanation": ""
+  },
+  {
+    "term": "Sklerose",
+    "replaceString": "Verhärtung",
+    "explanation": ""
+  },
+  {
+    "term": "Ossifikation",
+    "replaceString": "Verknöcherung",
+    "explanation": ""
+  },
+  {
+    "term": "Bradykardie",
+    "replaceString": "verlangsamter Herzschlag",
+    "explanation": ""
+  },
+  {
+    "term": "Granulozytose",
+    "replaceString": "Vermehrte Anzahl Granulozyten",
+    "explanation": ""
+  },
+  {
+    "term": "hypo",
+    "replaceString": "vermindert",
+    "explanation": ""
+  },
+  {
+    "term": "Granulozytopenie",
+    "replaceString": "Verminderte Anzahl Granulozyten",
+    "explanation": ""
+  },
+  {
+    "term": "Anhidrose",
+    "replaceString": "verminderte Schweißabsonderung",
+    "explanation": ""
+  },
+  {
+    "term": "Luxation",
+    "replaceString": "Verrenkung",
+    "explanation": ""
+  },
+  {
+    "term": "Dislokation",
+    "replaceString": "Verschiebung",
+    "explanation": ""
+  },
+  {
+    "term": "Spondylopathie",
+    "replaceString": "Verschleiß der Wirbelsäule",
+    "explanation": ""
+  },
+  {
+    "term": "Embolie",
+    "replaceString": "Verschluss einer Schlagader durch Blutgerinnsel",
+    "explanation": ""
+  },
+  {
+    "term": "Obstipation",
+    "replaceString": "Verstopfung",
+    "explanation": ""
+  },
+  {
+    "term": "Lungenembolie",
+    "replaceString": "Verstopfung einer Lungenarterie",
+    "explanation": ""
+  },
+  {
+    "term": "Thrombose",
+    "replaceString": "Verstopfung eines Blutgefäßes durch ein Blutgerinnsel",
+    "explanation": ""
+  },
+  {
+    "term": "distal",
+    "replaceString": "von der Körpermitte entfernt",
+    "explanation": ""
+  },
+  {
+    "term": "pränatal",
+    "replaceString": "vor der Geburt",
+    "explanation": ""
+  },
+  {
+    "term": "praepatellar",
+    "replaceString": "vor der Kniescheibe",
+    "explanation": ""
+  },
+  {
+    "term": "präpatellar",
+    "replaceString": "vor der Kniescheibe",
+    "explanation": ""
+  },
+  {
+    "term": "präoperativ",
+    "replaceString": "vor der Operation",
+    "explanation": ""
+  },
+  {
+    "term": "Prophylaxe",
+    "replaceString": "Vorbeugung",
+    "explanation": ""
+  },
+  {
+    "term": "Atrium",
+    "replaceString": "Vorhof",
+    "explanation": ""
+  },
+  {
+    "term": "anterior",
+    "replaceString": "vorne",
+    "explanation": ""
+  },
+  {
+    "term": "Fibula",
+    "replaceString": "Wadenbein",
+    "explanation": ""
+  },
+  {
+    "term": "Fibulakopffraktur",
+    "replaceString": "Wadenbeinkopfbruch",
+    "explanation": ""
+  },
+  {
+    "term": "Aszites",
+    "replaceString": "Wasseransammlung im Bauch",
+    "explanation": ""
+  },
+  {
+    "term": "Blutserum",
+    "replaceString": "wässriger Bestandteil des Blutes",
+    "explanation": ""
+  },
+  {
+    "term": "habituell",
+    "replaceString": "weiderkehrend",
+    "explanation": ""
+  },
+  {
+    "term": "albus",
+    "replaceString": "weiß",
+    "explanation": ""
+  },
+  {
+    "term": "Abulie",
+    "replaceString": "Willenlosigkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Angulus",
+    "replaceString": "Winkel",
+    "explanation": ""
+  },
+  {
+    "term": "Spondylitis",
+    "replaceString": "Wirbelsäulenentzündung",
+    "explanation": ""
+  },
+  {
+    "term": "Spondylose",
+    "replaceString": "Wirbelsäulenversteifung",
+    "explanation": ""
+  },
+  {
+    "term": "Appendix",
+    "replaceString": "Wurmfortsatz des Blinddarms",
+    "explanation": ""
+  },
+  {
+    "term": "Genu valgum",
+    "replaceString": "X-Beine",
+    "explanation": ""
+  },
+  {
+    "term": "Dens",
+    "replaceString": "Zahn",
+    "explanation": ""
+  },
+  {
+    "term": "Bruxismus",
+    "replaceString": "Zähneknirschen",
+    "explanation": ""
+  },
+  {
+    "term": "afferens",
+    "replaceString": "zuführend",
+    "explanation": ""
+  },
+  {
+    "term": "sakral",
+    "replaceString": "zum Kreuzbein gehörig",
+    "explanation": ""
+  },
+  {
+    "term": "apikal",
+    "replaceString": "zur Spitze hin gelegen",
+    "explanation": ""
+  },
+  {
+    "term": "bilateral",
+    "replaceString": "zweiseitig",
+    "explanation": ""
+  },
+  {
+    "term": "Diarthrose",
+    "replaceString": "zweiteiliges Gelenk",
+    "explanation": ""
+  },
+  {
+    "term": "Axis",
+    "replaceString": "zweiter Halswirbel",
+    "explanation": ""
+  },
+  {
+    "term": "Interstitium",
+    "replaceString": "Zwischenraum",
+    "explanation": ""
+  },
+  {
+    "term": "Duodenum",
+    "replaceString": "Zwölffingerdarm",
+    "explanation": ""
+  },
+  {
+    "term": "Adrenalin",
+    "replaceString": "",
+    "explanation": "Hormon, das im Nebennierenmark gebildet und in Stresssituationen freigesetzt wird"
+  },
+  {
+    "term": "Albumin",
+    "replaceString": "",
+    "explanation": "Albumin ist ein Bluteiweiß. Es ist am Wasserhaushalt und Transport von Molekülen beteiligt. Abweichungen der Albuminwerte weisen meist auf Nieren- und Leberschäden hin."
+  },
+  {
+    "term": "",
+    "replaceString": "",
+    "explanation": ""
+  },
+  {
+    "term": "Divertikelblutung",
+    "replaceString": "Darmblutung an einer Darmwandausstülpung",
+    "explanation": ""
+  },
+  {
+    "term": "gastrointestinal",
+    "replaceString": "Magen und Darm betreffend",
+    "explanation": ""
+  },
+  {
+    "term": "Antikoagulation",
+    "replaceString": "Medikamentöse Gerinnungshemmung",
+    "explanation": ""
+  },
+  {
+    "term": "Divertikulose",
+    "replaceString": "Vorliegen von Darmausstülpungen",
+    "explanation": ""
+  },
+  {
+    "term": "Erythrozytenkonzentrat",
+    "replaceString": "Blutkonserve",
+    "explanation": ""
+  },
+  {
+    "term": "paroxysmal",
+    "replaceString": "anfallsweise",
+    "explanation": ""
+  },
+  {
+    "term": "oral",
+    "replaceString": "(Einnahme über den Mund)",
+    "explanation": ""
+  },
+  {
+    "term": "Restriktive Ventilationsstörung",
+    "replaceString": "Atmungsstörung mit verminderter Lungendehnbarkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Vigilanz",
+    "replaceString": "Aufmerksamkeit",
+    "explanation": ""
+  },
+  {
+    "term": "Koloskopie",
+    "replaceString": "Darmspiegelung",
+    "explanation": ""
+  },
+  {
+    "term": "ÖGD",
+    "replaceString": "Magenspiegelung",
+    "explanation": ""
+  },
+  {
+    "term": "Hämatochezie",
+    "replaceString": "Auftreten von Blut im Stuhl",
+    "explanation": ""
+  },
+  {
+    "term": "Dyspnoe",
+    "replaceString": "Atemnot",
+    "explanation": ""
+  },
+  {
+    "term": "EK's",
+    "replaceString": "Blutkonserven",
+    "explanation": ""
+  },
+  {
+    "term": "EK",
+    "replaceString": "Blutkonserve",
+    "explanation": ""
+  },
+  {
+    "term": "periinterventionell",
+    "replaceString": "im Umfeld einer medizinischen Intervention",
+    "explanation": ""
+  },
+  {
+    "term": "Epikrise",
+    "replaceString": "Schlussbetrachtung",
+    "explanation": ""
+  },
+  {
+    "term": "Blutungsanämie",
+    "replaceString": "Verminderung des roten Blutfarbstoffs nach einer Blutung",
+    "explanation": ""
+  },
+  {
+    "term": "Hb",
+    "replaceString": "Roter Blutfarbstoff",
+    "explanation": ""
+  },
+  {
+    "term": "initial",
+    "replaceString": "anfänglich",
+    "explanation": ""
+  },
+  {
+    "term": "V.a.",
+    "replaceString": "Verdacht auf",
+    "explanation": ""
+  },
+  {
+    "term": "chronisch",
+    "replaceString": "lang andauernd",
+    "explanation": ""
+  },
+  {
+    "term": "GFR",
+    "replaceString": "Glomeruläre Filtrationsrate",
+    "explanation": ""
+  },
+  {
+    "term": "AZ",
+    "replaceString": "Allgemeinzustand",
+    "explanation": ""
+  },
+  {
+    "term": "euthyreot",
+    "replaceString": "normale Schilddrüsenfunktion",
+    "explanation": ""
+  },
+  {
+    "term": "Substitution",
+    "replaceString": "Ersatz",
+    "explanation": ""
+  }
+]

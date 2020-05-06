@@ -10,12 +10,20 @@ module.exports = {
     },
     backgroundColor: {
       footer: "#fafafa",
-      white: "#ffffff"
+      white: "#ffffff",
+      popup: "rgba(0, 0, 0, 0.32)"
     },
     extend: {
       textColor: {
         accent: "#c33c55ff",
         blue: "#2c5173ff"
+      },
+      width: {
+        fit: "fit-content",
+        180: "45rem"
+      },
+      height: {
+        fit: "fit-content"
       },
       boxShadow: {
         divider: "0 0 40px 0 rgba(0, 0, 0, 0.25)"

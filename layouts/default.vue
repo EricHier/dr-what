@@ -1,5 +1,5 @@
 <template>
-  <div class="w-screen h-screen font-body">
+  <div class="font-body">
     <Header></Header>
     <nuxt/>
     <Footer/>
@@ -11,7 +11,7 @@
 
   require("animate.css/animate.min.css")
 
-  // require("typeface-lato");
+  require("typeface-lato");
 
   export default {
     components: {
@@ -20,3 +20,8 @@
     }
   }
 </script>
+<style>
+  html {
+    background-color: #fafafa;
+  }
+</style>

@@ -1,5 +1,5 @@
 <template>
-  <div class="px-8 py-10">
+  <div class="px-8 py-10 w-full">
     <div class="container mx-auto">
       <div class="md:flex justify-center items-center w-full subpixel-antialiased">
         <div class="md:w-1/2 md:p-5 md:pl-0 mb-8">
@@ -11,17 +11,27 @@
           <div class="h-px w-10 mt-2 bg-accent"/>
         </div>
         <div class="md:p-5 md:pr-0 md:w-1/2">
-          <textarea @keyup="keyup" class="w-full border shadow-xl text-blue focus:text-accent focus:border-focus h-64 rounded-sm  p-4 outline-none" placeholder="Eingabe"/>
+          <textarea v-model="input" @keyup="keyup" class="w-full border shadow-xl text-blue focus:text-accent focus:border-focus h-64 rounded-sm  p-4 outline-none" placeholder="Eingabe"/>
         </div>
       </div>
     </div>
   </div>
 </template>
 <script>
+  import _ from "lodash";
+
   export default {
+    data() {
+      return {
+        input: ""
+      }
+    },
     methods: {
-      keyup(e) {
-        this.$emit("newValue", e.target.value)
+      keyup() {
+        this.$emit("show", this.input);
+        _.debounce((input) => {
+          this.$emit("newValue", input);
+        }, 2500)(this.input);
       }
     }
   }

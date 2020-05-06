@@ -1,47 +1,50 @@
 <template>
   <div class="bg-white">
 
-    <letter-input v-on:newValue="newValue" />
+    <letter-input @newValue="newValue" @show="show" />
 
-    <Output v-bind:output="output" />
+    <Output :output="output" :actualOutput="actualOutput" @popup="openPopup" :shown="shown"/>
 
-    <div  class="container mx-auto my-10">
-      <button class="border rounded text-blue p-4" @click="click">Daten neu herunterladen, zuletzt geupdated: <br> {{new Date(lastUpdated)}}</button>
-      <input v-model="newJson" placeholder="Neue Wörter" class="flex-auto p-4 border rounded text-gray-500">
-      <button class="flex-grow-0 p-4 border rounded text-gray-500" @click="upload">Speichern</button>
-    </div>
+    <translations-preview ref="preview" />
+
+    <info-text v-if="shown" />
+
   </div>
 </template>
 
 <script>
-import {translate, lastUpdated, updateTerms} from "../conversion/main";
-import {upload} from "../conversion/db";
+import {translate, updateTerms} from "../conversion/main";
 import LetterInput from "../components/converter/LetterInput";
 import Output from "../components/converter/Output";
+import PopupContainer from "../components/gui-elements/PopupContainer";
+import TranslationsPreview from "../components/converter/TranslationsPreview";
+import InfoText from "../components/converter/InfoText";
 
 export default {
-  components: {Output, LetterInput},
+  components: {TranslationsPreview, Output, LetterInput, PopupContainer, InfoText},
   metaInfo: {
     title: 'Startseite'
   },
   data() {
     return {
-      input: "",
+      actualOutput: "",
       output: "",
-      lastUpdated: lastUpdated,
-      newJson: ""
+      shown: false,
     }
+  },
+  created() {
+    updateTerms();
   },
   methods: {
     newValue(newVal) {
       this.output = translate(newVal);
     },
-    click() {
-      updateTerms(true);
+    openPopup() {
+      this.$refs.preview.show();
     },
-    async upload() {
-      await upload(JSON.parse(this.newJson));
-      this.newJson = "";
+    show(newInput) {
+      this.shown = true;
+      this.actualOutput = translate(newInput);
     }
   }
 }

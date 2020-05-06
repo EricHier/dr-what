@@ -15,10 +15,7 @@ export function setLastUpadtedToNow() {
     lowDb.set("lastUpdated", lastUpdated).write();
 }
 
-export function updateTerms(force) {
-
-    if (!(force || terms.length === 0))
-        return;
+export function updateTerms() {
 
     getTerms().then(newTerms => {
         terms = newTerms;
@@ -29,8 +26,6 @@ export function updateTerms(force) {
 }
 
 export function translate (input) {
-
-    updateTerms(false);
 
     let inputArr = input.split(" ");
 
