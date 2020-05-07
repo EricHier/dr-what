@@ -32,13 +32,15 @@ export default {
   ** Global CSS
   */
   css: [
-    "assets/scss/global"
+    "assets/scss/global",
+    '@fortawesome/fontawesome-svg-core/styles.css'
   ],
 
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~/plugins/fontawesome.js'
   ],
 
   /*
@@ -54,7 +56,14 @@ export default {
   */
   modules: [
     '@nuxtjs/pwa',
+    'nuxt-purgecss',
   ],
+
+  purgeCSS: {
+    mode: 'postcss',
+    enabled: (process.env.NODE_ENV === 'production'),
+    whitelistPatterns: [/svg.*/, /fa.*/]
+  },
 
   pwa: {
     meta: {
