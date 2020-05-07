@@ -15,12 +15,12 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ],
-    script: {
+    script: [{
       src: "https://stats.erichier.tech/js/index.js",
       async: true,
       defer: true,
       "data-domain": "mlt.erichier.tech"
-    }
+    }]
   },
 
   /*
