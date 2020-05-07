@@ -56,6 +56,22 @@ export default {
     '@nuxtjs/pwa',
   ],
 
+  pwa: {
+    meta: {
+      name: "Medizibrief Übersetzer",
+      nativeUI: true
+    },
+    manifest: {
+      lang: 'de',
+      name: "Medizibrief Übersetzer",
+      short_name: "MB Übersetzer",
+      background_color: "#ffffff",
+      start_url: "/",
+      display: "standalone",
+      theme_color: "#ffffff"
+    }
+  },
+
   /*
   ** Build configuration
   */
