@@ -1,6 +1,7 @@
 
 export default {
   mode: 'spa',
+
   /*
   ** Headers of the page
   */
@@ -13,23 +14,33 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
+    script: {
+      src: "https://stats.erichier.tech/js/index.js",
+      async: true,
+      defer: true,
+      "data-domain": "mlt.erichier.tech"
+    }
   },
+
   /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+
   /*
   ** Global CSS
   */
   css: [
     "assets/scss/global"
   ],
+
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
   ],
+
   /*
   ** Nuxt.js dev-modules
   */
@@ -37,12 +48,14 @@ export default {
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
     '@nuxtjs/tailwindcss',
   ],
+
   /*
   ** Nuxt.js modules
   */
   modules: [
     '@nuxtjs/pwa',
   ],
+
   /*
   ** Build configuration
   */

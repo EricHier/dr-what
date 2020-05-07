@@ -1,7 +1,7 @@
 {
-  "name": "MedicalLetterTranslator",
+  "name": "Medizinbrief Übersetzer",
   "version": "1.0.0",
-  "description": "My swell Nuxt.js project",
+  "description": "Ganz einfach deine Medizinbriefe übersetzen. ",
   "author": "erichier",
   "private": true,
   "scripts": {
