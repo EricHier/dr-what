@@ -6,13 +6,13 @@
       <tr v-for="(translation, id) in translations" v-bind:key="id" class="my-2">
 
         <!-- Desktop -->
-        <td class="font-bold p-2 hidden md:block">{{translation.term}}</td>
-        <td class="p-2 hidden md:block">
+        <td class="font-bold p-2 hidden sm:table-cell">{{translation.term}}</td>
+        <td class="p-2 hidden sm:table-cell">
           <span class="whitespace-no-wrap">
             ... wird zu ...
           </span>
         </td>
-        <td class="font-bold p-2 hidden md:block">{{translation.replaceString}}</td>
+        <td class="font-bold p-2 hidden sm:table-cell">{{translation.replaceString}}</td>
 
         <!-- Mobile -->
         <td class="py-2 md:hidden">
