@@ -3,7 +3,7 @@
     <div class="container mx-auto text-lg leading-loose">
       <h3 class="text-xl md:text-2xl text-center tracking-wider">Kontaktiere uns</h3>
       <div class="h-px w-20 bg-accent mx-auto mt-4" />
-      <form netlify name="contact" action="/?success" method="post" class="block md:flex">
+      <form netlify name="contact" action="/" method="post" class="block md:flex">
         <div class="md:w-1/2 md:p-5 md:pl-0">
 
           <!-- Netlify form -->
