@@ -9,6 +9,8 @@
 
     <info-text v-if="shown" />
 
+    <contact-form />
+
   </div>
 </template>
 
@@ -19,9 +21,10 @@ import Output from "../components/converter/Output";
 import PopupContainer from "../components/gui-elements/PopupContainer";
 import TranslationsPreview from "../components/popups/TranslationsPreviewPopup";
 import InfoText from "../components/converter/InfoText";
+import ContactForm from "../components/converter/ContactForm"
 
 export default {
-  components: {TranslationsPreview, Output, LetterInput, PopupContainer, InfoText},
+  components: {TranslationsPreview, Output, LetterInput, PopupContainer, InfoText, ContactForm},
   metaInfo: {
     title: 'Startseite'
   },

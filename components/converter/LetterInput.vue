@@ -8,7 +8,7 @@
             <strong>automatisch von unserem Algorithmus gescannt</strong> und
             übersetzt. Dafür greifen wir auf die Datenbank mit <strong>mehreren hundert Begriffen</strong> zu.
           </p>
-          <div class="h-px w-10 mt-2 bg-accent"/>
+          <div class="h-px w-12 mt-4 bg-accent"/>
         </div>
         <div class="md:p-5 md:pr-0 md:w-1/2">
           <textarea v-model="input" @keyup="keyup" class="w-full border shadow-xl text-blue focus:text-accent focus:border-focus h-64 rounded-sm  p-4 outline-none" placeholder="Eingabe"/>

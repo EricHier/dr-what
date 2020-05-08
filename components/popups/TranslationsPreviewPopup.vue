@@ -1,7 +1,7 @@
 <template>
   <PopupContainer :class="{'hidden' : !visible}" @close="visible = false" :full-height="true">
     <h3 class="text-lg font-bold text-center mb-4">Alle Übersetzungen</h3>
-    <div class="h-px w-full bg-accent mb-4" />
+    <div class="h-px w-20 mx-auto bg-accent mb-4" />
     <table>
       <tr v-for="(translation, id) in translations" v-bind:key="id" class="my-2">
 
@@ -17,7 +17,7 @@
         <!-- Mobile -->
         <td class="py-2 md:hidden">
           {{translation.term}} <br>
-          → {{translation.replaceString}}
+          <font-awesome-icon icon="arrow-right" size="sm" class="mx-1"/>{{translation.replaceString}}
         </td>
 
       </tr>
