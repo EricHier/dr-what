@@ -23,7 +23,8 @@ module.exports = {
         180: "45rem"
       },
       height: {
-        fit: "fit-content"
+        fit: "fit-content",
+        30: "7.5rem"
       },
       boxShadow: {
         divider: "0 0 40px 0 rgba(0, 0, 0, 0.25)"

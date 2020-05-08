@@ -17,7 +17,7 @@
           <label for="email" class="mt-2 block font-bold">E-Mail</label>
           <input id="email" name="email" type="email" class="block w-full border focus:border-focus focus:text-accent outline-none px-2" required/>
 
-          <p class="leading-snug text-sm mt-6 text-justify-center hidden sm:block">
+          <p class="leading-snug text-sm mt-2 text-justify-center hidden sm:block">
             Deine personenbezogenen Daten an uns übermittelt und zu der Beantwortung deines Anliegens
             verwendet und danach gelöscht. Bei Fragen kontaktiere uns über die Daten im Impressum.
           </p>

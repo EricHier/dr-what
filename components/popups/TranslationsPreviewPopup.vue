@@ -43,6 +43,7 @@
     },
     computed: {
       translations: () => {
+        console.log(lowDb.get("terms").value())
         return lowDb.get("terms").value();
       }
     }

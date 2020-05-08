@@ -4,7 +4,7 @@
     <div class="bg-white p-8 w-full md:w-180 relative"
          :class="{'h-fit' : !fullHeight}" @click="noClick">
       <div class="w-full overflow-auto" :class="{'h-full' : fullHeight}">
-        <font-awesome-icon icon="times" size="lg" class="absolute md:hidden top-0 right-0 text-accent m-2" @click="click" />
+        <font-awesome-icon icon="times" size="lg" class="absolute md:hidden-full top-0 right-0 text-accent m-2" @click="click" />
         <slot/>
       </div>
     </div>
@@ -37,7 +37,7 @@
 </script>
 <style lang="scss" scoped>
   @responsive {
-    .hidden {
+    .hidden-full {
       display: none !important;
     }
   }
