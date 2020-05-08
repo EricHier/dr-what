@@ -3,8 +3,11 @@
     <div class="container mx-auto text-lg leading-loose">
       <h3 class="text-xl md:text-2xl text-center tracking-wider">Kontaktiere uns</h3>
       <div class="h-px w-20 bg-accent mx-auto mt-4" />
-      <form netlify name="contact" class="block md:flex">
+      <form netlify name="contact" action="/form/?success" method="post" class="block md:flex">
         <div class="md:w-1/2 md:p-5 md:pl-0">
+
+          <!-- Netlify form -->
+          <input type="hidden" name="contact" value="contact" />
 
           <!-- Name -->
           <label for="name" class="font-bold">Name</label>
@@ -25,7 +28,7 @@
 
           <!-- Message -->
           <label for="text" class="block mt-2 md:mt-0 font-bold">Was möchtest du uns sagen? </label>
-          <textarea id="text" name="text" class="w-full h-32 border focus:border-focus focus:text-accent outline-none px-2" required/>
+          <textarea id="text" name="text" class="w-full h-30 border focus:border-focus focus:text-accent outline-none px-2" required/>
 
           <button type="submit" class="border border-focus text-accent w-full font-bold p-2">Absenden</button>
 
