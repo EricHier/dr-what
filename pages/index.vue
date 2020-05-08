@@ -36,7 +36,7 @@ export default {
     }
   },
   created() {
-    updateTerms();
+    updateTerms(this.$store);
   },
   methods: {
     newValue(newVal) {

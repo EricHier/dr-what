@@ -1,59 +1,30 @@
-import low from 'lowdb'
-import LocalStorage from 'lowdb/adapters/LocalStorage'
 import {getTerms} from "./db";
-const adapter = new LocalStorage('db')
-export const lowDb = low(adapter)
 
-lowDb.defaults({ terms: [], lastUpdated: 0 }).write()
+export let store = {};
 
-let terms = lowDb.get("terms").value();
-let lastUpdated = lowDb.get("lastUpdated").value();
-export {lastUpdated};
+export function updateTerms(pStore) {
 
-export function setLastUpadtedToNow() {
-    lastUpdated = Date.now();
-    lowDb.set("lastUpdated", lastUpdated).write();
-}
-
-export function updateTerms() {
+    store = pStore;
 
     getTerms().then(newTerms => {
-        terms = newTerms;
-        lowDb.set('terms', terms).write()
+        store.commit("terms/set", newTerms);
     }).catch((e) => {
         console.log("Firebase Error", e);
     })
 }
 
-/*export function translate (input) {
-
-    let inputArr = input.split(" ");
-
-    for (let index = 0; index < inputArr.length; index++) {
-        let word = inputArr[index];
-
-        for (let item of terms) {
-
-            let dynamicRegExp = new RegExp(`${item.term.replace(".", "\\.")}`, "gisu");
-
-            word = word.replace(dynamicRegExp, item.replaceString);
-            inputArr[index] = word;
-
-        }
-    }
-
-    return inputArr.join(" ");
-}*/
-
 export function translate (input) {
     input = " " + input;
 
-    for (let item of terms) {
+    for (let item of store.state.terms.terms) {
 
-        let dynamicRegExp = new RegExp(`[\.\s]${item.term.replace(".", "\\.")}[\.\s]`, "gisu");
+        let dynamicRegExp = new RegExp("(?<=[.+ ])" + item.term.replace(".", "\\.") + "(?=[.+ ])", "gis");
 
         if (item.regex !== "")
             dynamicRegExp = new RegExp(`${item.regex}`, "gsu");
+
+        if (item.term === "Sputum")
+            console.log(input.match(dynamicRegExp), dynamicRegExp)
 
         input = input.replace(dynamicRegExp, item.replaceString);
     }

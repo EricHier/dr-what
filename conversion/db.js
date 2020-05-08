@@ -1,10 +1,9 @@
 import {db} from "./firebase-init";
-import {lowDb, setLastUpadtedToNow} from "./main";
+import {store} from "./main";
 
 export async function upload(translations) {
 
-  lowDb.set('terms', translations).write()
-  setLastUpadtedToNow();
+  store.commit("terms/set", translations);
 
   db.collection("data").doc("terms").set({
     terms: JSON.stringify(translations)
@@ -19,7 +18,7 @@ export function getTerms() {
       let translations = JSON.parse(doc.data().terms);
 
       translations.forEach((translation) => {
-        translation.regex = translation.regex.replace(/\//g, "").replace(/\s/g, "\\s");
+        translation.regex = translation.regex.replace(/\//g, "")//.replace(/\s/g, "\\s");
       })
 
       translations.sort((a, b) => {

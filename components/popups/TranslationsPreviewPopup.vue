@@ -27,7 +27,6 @@
 </template>
 <script>
   import PopupContainer from "../gui-elements/PopupContainer";
-  import {lowDb} from "../../conversion/main";
 
   export default {
     components: {PopupContainer},
@@ -42,9 +41,8 @@
       }
     },
     computed: {
-      translations: () => {
-        console.log(lowDb.get("terms").value())
-        return lowDb.get("terms").value().sort((a, b) => {
+      translations () {
+        return this.$store.state.terms.terms.sort((a, b) => {
           if (a.term.toUpperCase() < b.term.toUpperCase())
             return -1;
           else
