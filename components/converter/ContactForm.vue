@@ -7,7 +7,7 @@
         <div class="md:w-1/2 md:p-5 md:pl-0">
 
           <!-- Netlify form -->
-          <input type="hidden" name="contact" value="contact" />
+          <input type="hidden" name="form-name" value="contact" />
 
           <!-- Name -->
           <label for="name" class="font-bold">Name</label>
