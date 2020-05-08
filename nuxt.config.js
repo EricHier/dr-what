@@ -60,7 +60,6 @@ export default {
   ],
 
   purgeCSS: {
-    mode: 'postcss',
     enabled: (process.env.NODE_ENV === 'production'),
     whitelistPatterns: [/svg.*/, /fa.*/]
   },
