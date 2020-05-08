@@ -25,7 +25,7 @@ export function updateTerms() {
     })
 }
 
-export function translate (input) {
+/*export function translate (input) {
 
     let inputArr = input.split(" ");
 
@@ -43,4 +43,20 @@ export function translate (input) {
     }
 
     return inputArr.join(" ");
+}*/
+
+export function translate (input) {
+    input = " " + input;
+
+    for (let item of terms) {
+
+        let dynamicRegExp = new RegExp(`[\.\s]${item.term.replace(".", "\\.")}[\.\s]`, "gisu");
+
+        if (item.regex !== "")
+            dynamicRegExp = new RegExp(`${item.regex}`, "gsu");
+
+        input = input.replace(dynamicRegExp, item.replaceString);
+    }
+
+    return input;
 }

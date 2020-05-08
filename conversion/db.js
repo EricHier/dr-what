@@ -18,6 +18,17 @@ export function getTerms() {
 
       let translations = JSON.parse(doc.data().terms);
 
+      translations.forEach((translation) => {
+        translation.regex = translation.regex.replace(/\//g, "").replace(/\s/g, "\\s");
+      })
+
+      translations.sort((a, b) => {
+        if (a.regex.length < b.regex.length)
+          return -1;
+        else
+          return 1;
+      })
+
       console.log(translations);
 
       resolve(translations);
