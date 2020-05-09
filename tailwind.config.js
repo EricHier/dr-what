@@ -22,6 +22,10 @@ module.exports = {
         fit: "fit-content",
         180: "45rem"
       },
+      maxWidth: {
+        xxs: "15rem",
+        xxxs: "7rem"
+      },
       height: {
         fit: "fit-content",
         30: "7.5rem"
