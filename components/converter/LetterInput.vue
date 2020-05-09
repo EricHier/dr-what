@@ -50,5 +50,6 @@
   .outline-none {
     outline-width: 0;
     outline-style: none;
+    outline: none;
   }
 </style>
