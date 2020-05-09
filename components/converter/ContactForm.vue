@@ -18,7 +18,7 @@
           <input id="email" name="email" type="email" class="block w-full border focus:border-focus focus:text-accent outline-none px-2" required/>
 
           <p class="leading-snug text-sm mt-2 lg:mt-4 text-justify-center hidden sm:block">
-            Deine personenbezogenen Daten an uns übermittelt und zu der Beantwortung deines Anliegens
+            Deine personenbezogenen Daten werden an uns übermittelt und zu der Beantwortung deines Anliegens
             verwendet und danach gelöscht. Bei Fragen kontaktiere uns über die Daten im Impressum.
           </p>
 
@@ -33,7 +33,7 @@
           <button type="submit" class="border border-focus text-accent w-full font-bold p-2">Absenden</button>
 
           <p class="leading-snug text-sm mt-4 text-justify-center block md:hidden">
-            Deine personenbezogenen Daten an uns übermittelt und zu der Beantwortung deines Anliegens
+            Deine personenbezogenen Daten werden an uns übermittelt und zu der Beantwortung deines Anliegens
             verwendet und danach gelöscht. Bei Fragen kontaktiere uns über die Daten im Impressum.
           </p>
 
