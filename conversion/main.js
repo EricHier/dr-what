@@ -23,9 +23,6 @@ export function translate (input) {
         if (item.regex !== "")
             dynamicRegExp = new RegExp(`${item.regex}`, "gsu");
 
-        if (item.term === "Sputum")
-            console.log(input.match(dynamicRegExp), dynamicRegExp)
-
         input = input.replace(dynamicRegExp, item.replaceString);
     }
 

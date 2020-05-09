@@ -4,7 +4,7 @@
     <Loader class="mx-auto" v-if="output !== actualOutput || output === ''"/>
     <div class="container mx-auto relative animated fadeInUp faster" v-if="output !== '' && output === actualOutput">
       <h2 class="text-xl tracking-wider md:text-xl">
-        Hier ist deine Übersetzung
+        {{output.replace(" ", "") ? "Hier ist deine Übersetzung" : "Gib einen Text ein damit du die Übersetzung hier sehen kannst."}}
       </h2>
       <div class="text-accent my-2 md:absolute md:top-0 md:right-0" @click="$emit('popup')">
         Alle Übersetzungen anzeigen

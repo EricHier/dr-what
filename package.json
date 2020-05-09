@@ -1,7 +1,7 @@
 {
   "name": "medizinbrief-uebersetzer",
   "version": "1.0.0",
-  "description": "Ganz einfach deine Medizinbriefe übersetzen. ",
+  "description": "Online in Echtzeit Arztbriefe übersetzen | Dr.What?",
   "author": "erichier",
   "private": true,
   "scripts": {
