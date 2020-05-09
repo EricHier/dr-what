@@ -19,7 +19,7 @@ export default {
       src: "https://stats.erichier.tech/js/index.js",
       async: true,
       defer: true,
-      "data-domain": "mlt.erichier.tech"
+      "data-domain": "drwhat.de"
     }]
   },
 
