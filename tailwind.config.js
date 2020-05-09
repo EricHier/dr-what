@@ -24,7 +24,7 @@ module.exports = {
       },
       maxWidth: {
         xxs: "15rem",
-        xxxs: "7rem"
+        xxxs: "9rem"
       },
       height: {
         fit: "fit-content",
