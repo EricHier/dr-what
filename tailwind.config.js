@@ -34,6 +34,7 @@ module.exports = {
         divider: "0 0 40px 0 rgba(0, 0, 0, 0.25)"
       },
       minHeight: {
+        "60": "15rem",
         "80": "20rem"
       }
     }

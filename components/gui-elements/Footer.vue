@@ -2,26 +2,14 @@
   <div>
     <footer class="pt-12 pb-24 px-6 bg-footer">
       <div class="container mx-auto text-center">
-        <p class="mb-4"><b>MedicalLetterTranslator</b> by EricHier & Anna</p>
+        <p class="mb-4"><b>Dr.What?</b> by Anna, Anna und vielen weiteren Helfern</p>
         <nuxt-link to="/impressum" title="Impressum" class="font-bold text-accent">Impressum</nuxt-link> |
-        <a class="font-bold text-accent" @click="popupShown = true">Upload</a>
+        <nuxt-link to="/mitmachen" title="Mitmachen" class="font-bold text-accent">Mitmachen</nuxt-link>
       </div>
     </footer>
 
-    <update-d-b v-if="popupShown" @close="popupShown = false"/>
   </div>
 </template>
-<script>
-  import UpdateDB from "../popups/UpdateDBPopup";
-  export default {
-    components: {UpdateDB},
-    data() {
-      return {
-        popupShown: false
-      }
-    }
-  }
-</script>
 <style scoped>
     a {
         cursor: pointer;
