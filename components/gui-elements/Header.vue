@@ -17,7 +17,7 @@
    <div class="w-full p-8 py-4 bg-accent shadow-xl animated fadeIn">
      <div class="container mx-auto text-white text-md md:text-lg font-bold tracking-wider text-justify md:text-center">
         Da die Webseite aktuell im Aufbau ist, kann es noch zu Fehlern kommen. <br class="hidden md:static">
-        Sollte das der Falls sein, kontaktier uns bitte.
+        Sollte das der Falls sein, kontaktiere uns bitte.
      </div>
    </div>
  </div>
