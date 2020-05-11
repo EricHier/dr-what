@@ -31,9 +31,9 @@
         Damit wir deine Begriffe in unsere Datenbank aufnehmen und zur Übersetzung nutzen können, wollen wir dir ein paar Tipps geben:
       </p>
 
-      <ul class="list-disc ml-8 mt-4">
+      <ul class="list-disc ml-8">
 
-        <li class="mt-8">
+        <li class="mt-6">
           <p>Übersetze nur Begriffe, bei denen du dich sicher fühlst</p>
           <span class="inline-block mt-2">Reiche also lieber 10 neue Begriffe ein, die du gut kennst als 100, bei denen du unsicher bist und die Fehler haben. </span>
         </li>
