@@ -10,7 +10,7 @@
           </h2>
         </div>
         <nuxt-link to="/">
-          <img src="logo.png" class="max-w-xxxs md:max-w-xxs mb-8 md:m-0">
+          <img src="/logo.png" class="max-w-xxxs md:max-w-xxs mb-8 md:m-0">
         </nuxt-link>
       </div>
     </div>
