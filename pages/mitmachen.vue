@@ -64,3 +64,12 @@
     </div>
   </div>
 </template>
+<script>
+  export default {
+    head () {
+      return {
+        title: "Mitmachen | Dr. What?"
+      }
+    }
+  }
+</script>

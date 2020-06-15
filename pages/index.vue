@@ -25,9 +25,6 @@ import ContactForm from "../components/converter/ContactForm"
 
 export default {
   components: {TranslationsPreview, Output, LetterInput, PopupContainer, InfoText, ContactForm},
-  metaInfo: {
-    title: 'Startseite'
-  },
   data() {
     return {
       actualOutput: "",
