@@ -1,5 +1,5 @@
 <template>
-  <PopupContainer :class="{'hidden' : !visible}" @close="visible = false" :full-height="true">
+  <PopupContainer v-if="visible" @close="visible = false" :full-height="true">
     <h3 class="text-lg font-bold text-center mb-4">Alle Übersetzungen</h3>
     <div class="h-px w-20 mx-auto bg-accent mb-4" />
     <table>
