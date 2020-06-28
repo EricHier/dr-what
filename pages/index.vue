@@ -15,7 +15,6 @@
 </template>
 
 <script>
-import {translate, updateTerms} from "../conversion/main";
 import LetterInput from "../components/converter/LetterInput";
 import Output from "../components/converter/Output";
 import PopupContainer from "../components/gui-elements/PopupContainer";
@@ -32,18 +31,21 @@ export default {
       shown: false,
     }
   },
-  created() {
+  async mounted() {
+    let { updateTerms } = await import("../conversion/main")
     updateTerms(this.$store);
   },
   methods: {
-    newValue(newVal) {
+    async newValue(newVal) {
+      let { translate } = await import("../conversion/main")
       this.output = translate(newVal);
     },
     openPopup() {
       this.$refs.preview.show();
     },
-    show(newInput) {
+    async show(newInput) {
       this.shown = true;
+      let { translate } = await import("../conversion/main")
       this.actualOutput = translate(newInput);
     }
   }

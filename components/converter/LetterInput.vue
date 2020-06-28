@@ -20,8 +20,6 @@
   </div>
 </template>
 <script>
-  import _ from "lodash";
-
   export default {
     data() {
       return {
@@ -29,7 +27,9 @@
       }
     },
     methods: {
-      keyup(e) {
+      async keyup(e) {
+        const _ = await import("lodash");
+
         this.$emit("show", e.target.value);
         _.debounce((input) => {
           this.$emit("newValue", input);
