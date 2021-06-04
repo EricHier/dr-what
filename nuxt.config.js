@@ -6,11 +6,11 @@ export default {
   ** Headers of the page
   */
   head: {
-    title: "Online in Echtzeit Arztbriefe übersetzen | Dr.What?",
+    title: "Online in Echtzeit Arztbriefe analysieren | Dr.What?",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "Was habe ich denn überhaupt? Hast du deinen Arztbrief oder einen medizinischen Fachbegriff nicht verstanden? Bei Dr.What? deinen Arztbrief hochladen und kostenlos übersetzen lassen." }
+      { hid: "description", name: "description", content: "Was habe ich denn überhaupt? Hast du deinen Arztbrief oder einen medizinischen Fachbegriff nicht verstanden? Bei Dr.What? deinen Arztbrief hochladen und kostenlos analysieren lassen." }
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }

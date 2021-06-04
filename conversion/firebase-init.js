@@ -1,4 +1,4 @@
-const firebase = require('firebase/app');
+import firebase from 'firebase/app';
 import 'firebase/firestore'
 
 import { apiKey } from './firebase-api'

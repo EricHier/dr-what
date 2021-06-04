@@ -4,14 +4,14 @@ module.exports = {
       body: "Lato",
       display: "Lato"
     },
-    borderColor: {
-      default: "#2c5173ff",
-      focus: "#c33c55ff"
-    },
     backgroundColor: {
       footer: "#fafafa",
       white: "#ffffff",
       popup: "rgba(0, 0, 0, 0.32)"
+    },
+    borderColor: {
+      default: "#2c5173ff",
+      focus: "#c33c55ff"
     },
     extend: {
       textColor: {

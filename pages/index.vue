@@ -1,53 +1,38 @@
 <template>
   <div class="bg-white">
 
-    <letter-input @newValue="newValue" @show="show" />
+    <letter-input/>
 
-    <Output :output="output" :actualOutput="actualOutput" @popup="openPopup" :shown="shown"/>
+    <letter-output @popup="openPopup" v-if="$store.state.shown"/>
 
-    <translations-preview ref="preview" />
+    <translations-preview ref="preview"/>
 
-    <info-text v-if="shown" />
+    <info-text v-if="$store.state.shown"/>
 
-    <contact-form />
+    <contact-form/>
 
   </div>
 </template>
 
 <script>
 import LetterInput from "../components/converter/LetterInput";
-import Output from "../components/converter/Output";
+import LetterOutput from "../components/converter/LetterOutput";
 import PopupContainer from "../components/gui-elements/PopupContainer";
 import TranslationsPreview from "../components/popups/TranslationsPreviewPopup";
 import InfoText from "../components/converter/InfoText";
 import ContactForm from "../components/converter/ContactForm"
+import { getTerms } from "../conversion/db";
 
 export default {
-  components: {TranslationsPreview, Output, LetterInput, PopupContainer, InfoText, ContactForm},
-  data() {
-    return {
-      actualOutput: "",
-      output: "",
-      shown: false,
-    }
-  },
+  components: { TranslationsPreview, LetterOutput, LetterInput, PopupContainer, InfoText, ContactForm },
   async mounted() {
-    let { updateTerms } = await import("../conversion/main")
-    updateTerms(this.$store);
+    const terms = await getTerms();
+    this.$store.commit("setTerms", terms);
   },
   methods: {
-    async newValue(newVal) {
-      let { translate } = await import("../conversion/main")
-      this.output = translate(newVal);
-    },
     openPopup() {
       this.$refs.preview.show();
     },
-    async show(newInput) {
-      this.shown = true;
-      let { translate } = await import("../conversion/main")
-      this.actualOutput = translate(newInput);
-    }
   }
 }
 </script>

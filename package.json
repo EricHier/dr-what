@@ -1,9 +1,8 @@
 {
   "name": "dr-what",
   "version": "1.0.0",
-  "description": "Online in Echtzeit Arztbriefe übersetzen | Dr.What?",
+  "description": "Online in Echtzeit Arztbriefe analysieren | Dr.What?",
   "author": "erichier",
-  "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
@@ -17,16 +16,16 @@
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "@nuxtjs/pwa": "^3.0.0-0",
     "animate.css": "^3.7.2",
-    "firebase": "^7.14.2",
+    "firebase": "^8.6.4",
     "lodash": "^4.17.21",
     "lowdb": "^1.0.0",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.6",
     "typeface-lato": "0.0.75"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0",
-    "node-sass": "^4.14.0",
+    "@nuxtjs/tailwindcss": "^4.1.2",
+    "node-sass": "^6.0.0",
     "nuxt-purgecss": "^1.0.0",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^10.2.0"
   }
 }
