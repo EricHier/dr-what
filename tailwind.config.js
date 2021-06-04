@@ -40,5 +40,10 @@ module.exports = {
     }
   },
   variants: {},
-  plugins: []
+  plugins: [],
+  purge: [
+  './layouts/**/*.vue',
+  './index/**/*.vue',
+  './components/**/*.vue',
+],
 }
