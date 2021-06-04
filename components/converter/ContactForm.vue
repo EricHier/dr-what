@@ -1,21 +1,35 @@
 <template>
   <div class="px-8 py-10 w-full animated fadeIn faster">
     <div class="container mx-auto text-lg leading-loose">
+
+      <!-- heading -->
       <h3 class="text-xl md:text-2xl text-center tracking-wider">Kontaktiere uns</h3>
-      <div class="h-px w-20 bg-accent mx-auto mt-4" />
+
+      <!-- note about letter containment -->
+      <p class="text-center mt-3 text-sm max-w-lg mx-auto">Wir hängen deinen Arztbrief an die Kontaktanfrage an, damit wir dir auch Fragen zu
+        diesem beantworten können. </p>
+      <div class="h-px w-20 bg-accent mx-auto mt-4"/>
+
+      <!-- netlify form -->
       <form name="contact" action="/" method="post" class="block md:flex">
+
+        <!-- spacing -->
         <div class="md:w-1/2 md:p-5 md:pl-0">
 
-          <!-- Netlify form -->
-          <input type="hidden" name="form-name" value="contact" />
+          <!-- Netlify form name -->
+          <input type="hidden" name="form-name" value="contact"/>
+
+          <input type="hidden" name="letter" :value="$store.state.input"/>
 
           <!-- Name -->
           <label for="name" class="font-bold">Name</label>
-          <input id="name" name="name" type="text" class="block w-full border focus:border-focus focus:text-accent outline-none px-2" required/>
+          <input id="name" name="name" type="text"
+                 class="block w-full border focus:border-focus focus:text-accent outline-none px-2" required/>
 
           <!-- E-Mail -->
           <label for="email" class="mt-2 block font-bold">E-Mail</label>
-          <input id="email" name="email" type="email" class="block w-full border focus:border-focus focus:text-accent outline-none px-2" required/>
+          <input id="email" name="email" type="email"
+                 class="block w-full border focus:border-focus focus:text-accent outline-none px-2" required/>
 
           <p class="leading-snug text-sm mt-2 lg:mt-4 text-justify-center hidden sm:block">
             Deine personenbezogenen Daten werden an uns übermittelt und zu der Beantwortung deines Anliegens
@@ -28,7 +42,8 @@
 
           <!-- Message -->
           <label for="text" class="block mt-2 md:mt-0 font-bold">Was möchtest du uns sagen? </label>
-          <textarea id="text" name="text" class="w-full h-30 border focus:border-focus focus:text-accent outline-none px-2" required/>
+          <textarea id="text" name="text"
+                    class="w-full h-30 border focus:border-focus focus:text-accent outline-none px-2" required/>
 
           <button type="submit" class="border border-focus text-accent w-full font-bold p-2">Absenden</button>
 
@@ -44,8 +59,8 @@
   </div>
 </template>
 <style>
-  .text-justify-center {
-    text-align: justify;
-    text-align-last: center;
-  }
+.text-justify-center {
+  text-align: justify;
+  text-align-last: center;
+}
 </style>
